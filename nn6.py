@@ -12,5 +12,6 @@ model = nn.Sequential(
     nn.Softmax(dim=-1)
     )
 
+
 output_tensor = model(input_tensor)
 print("Output Tensor: ", output_tensor)
